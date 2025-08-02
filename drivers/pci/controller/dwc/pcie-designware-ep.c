@@ -940,7 +940,7 @@ int dw_pcie_ep_init_registers(struct dw_pcie_ep *ep)
 		return -EIO;
 	}
 
-	dw_pcie_version_detect(pci);
+//	dw_pcie_version_detect(pci);
 
 	dw_pcie_iatu_detect(pci);
 

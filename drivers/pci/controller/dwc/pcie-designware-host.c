@@ -519,7 +519,7 @@ int dw_pcie_host_init(struct dw_pcie_rp *pp)
 		}
 	}
 
-	dw_pcie_version_detect(pci);
+//	dw_pcie_version_detect(pci);
 
 	dw_pcie_iatu_detect(pci);
 
